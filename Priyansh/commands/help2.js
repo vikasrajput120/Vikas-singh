@@ -2,7 +2,7 @@
 	name: "help2",
 	version: "1.0.2",
 	hasPermssion: 0,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	credits: "PetterSever",
 	description: "Beginner's Guide",
 	commandCategory: "system",
 	usages: "[Tên module]",
@@ -14,7 +14,13 @@
 };
 
 module.exports.languages = {
-	
+	//"vi": {
+	//	"moduleInfo": "「 %1 」\n%2\n\n❯ Cách sử dụng: %3\n❯ Thuộc nhóm: %4\n❯ Thời gian chờ: %5 giây(s)\n❯ Quyền hạn: %6\n\n» Module code by %7 «",
+	//	"helpList": '[ Hiện tại đang có %1 lệnh có thể sử dụng trên bot này, Sử dụng: "%2help nameCommand" để xem chi tiết cách sử dụng! ]"',
+	//	"user": "Người dùng",
+  //      "adminGroup": "Quản trị viên nhóm",
+  //      "adminBot": "Quản trị viên bot"
+//	},
 	"en": {
 		"moduleInfo": "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Waiting time: %5 seconds(s)\n❯ Permission: %6\n\n» Module code by %7 «",
 		"helpList": '[ There are %1 commands on this bot, Use: "%2help nameCommand" to know how to use! ]',
@@ -64,12 +70,50 @@ module.exports. run = function({ api, event, args, getText }) {
     i = startSlice;
     const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
     
-    for (let item of returnArray) msg += `「 ${++i} 」${prefix}${item}\n`;
+    for (let item of returnArray) msg += `✰『 ${++i} 』 ➬${item} \n`;
     
     
-    const siu = `Command list 📄\nMade by Vikas Rajput 🥀\nFor More Information type /help (command name) ✨`;
+    const siu = `
+╭────────╮
+👉🏻 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧 👈🏻
+╰────────╯
+
+                 𝐌𝐀𝐃𝐄 𝐁𝐘
+                        💙
+         😈𝐕𝐈𝐊𝐀𝐒 𝐑𝐀ᒍ𝐏𝐔𝐓😈
+🐧▬▬▬▬▬▬▬▬▬▬▬▬🐧`;
     
- const text = `\nPage (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})`;
+ const text = `\n╭──────╮
+✅ 𝐏𝐀𝐆𝐄  
+╰──────╯ (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})
+
+𝗧𝘆𝗽𝗲: {•}𝗛𝗲𝗹𝗽2
+𝗧𝗼𝘁𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: 384
+💙▬▬▬▬▬▬▬▬▬▬▬▬💛
+╭────────╮
+💬 𝗡𝗔𝗠𝗘 𝗢𝗪𝗡𝗘𝗥 💬
+╰────────╯  
+╭──────╮
+👑𝐕𝐈𝐊𝐀𝐒 𝐑𝐀ᒍ𝐏𝐔𝐓👑
+╰──────╯
+💛▬▬▬▬▬▬▬▬▬▬▬▬💙
+ ᴜꜱᴇ ᴛʜᴇ ᴄᴍᴍᴅꜱ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ  ʙᴏᴛ
+
+  ꜰᴏʀ ᴍᴀɴʏ ᴄᴏᴍᴍᴀɴᴅꜱ ᴜꜱᴇ »»»
+                    {.ʜᴇʟᴘ2}
+
+ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ ʙᴏᴛ ʏᴀᴍʀᴀᴊ
+💙▬▬▬▬▬▬▬▬▬▬▬▬💛
+𝐀𝐍𝐘 𝐊𝐈𝐍𝐃 ❍𝐅 𝐇𝐄𝐋𝐏  𝐔𝐒𝐄 𝐋𝐈𝐍𝐊
+╭───────╮
+🖇️ :https://www.facebook.com/profile.php?id=100081181726230&mibextid=ZbWKwL
+╰───────╯ 
+𝐂❍𝐍𝐓𝐀𝐂𝐓 𝐌𝐄 ❍𝐍 𝐅𝐀𝐂𝐄𝐁❍❍𝐊      
+💛▬▬▬▬▬▬▬▬▬▬▬▬💙
+┎───────────┑
+ ❘ 𝐁❍𝐓 𝐍𝐀𝐌𝐄 »𝐘𝐀𝐌𝐑𝐀𝐉
+┗───────────┙
+💙▬▬▬▬▬▬▬▬▬▬▬▬💛`;
  
     return api.sendMessage(siu + "\n\n" + msg  + text, threadID, async (error, info) => {
 			if (autoUnsend) {
