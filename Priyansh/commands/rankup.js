@@ -100,7 +100,7 @@ module.exports.languages = {
 		"on": "on",
 		"off": "off",
 		"successText": "success notification rankup!",
-		"levelup": "💝 🥀══𝐂𝐨𝐍𝐑𝐀𝐓𝐒══🥀 \n\n ⃟══•{name}══⃟❣ \n\n  𝐘𝐨𝐔𝐑 𝐋𝐄𝐕𝐄𝐋 𝐈𝐒 ➾ 🍫 {level} \n\n 🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀🥀",
+		"levelup": "‎🤍 ◁𝗖𝗢𝗡𝗚𝗥𝗔𝗧𝗨𝗟𝗔𝗧𝗜𝗢𝗡▷ 🤍  \n\n ⃟══•{name}══⃟ \n\n 𝒀𝒐𝒖𝒓 𝒍𝒆𝒗𝒆𝒍 𝒓𝒆𝒂𝒄𝒉𝒆𝒅 𝒂𝒕 ➕ {level} \n\n   𝓒𝓻𝓮𝓭𝓲𝓽𝓼 ➺➤ 𝙑𝓲𝓴𝓪𝑠 𝓡𝓪𝓳𝒑𝒖𝑡",
 	}
 }
 
