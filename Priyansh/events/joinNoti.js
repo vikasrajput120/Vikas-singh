@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event }) {
         const fs = require("fs");
         return api.sendMessage("", event.threadID, () => api.sendMessage({body: `🍒💙•••Ɓ❍ʈ Ƈøɳɳɛƈʈɛɗ•••💞🌿
         
-🕊️🌸...Ɦɛɭɭ❍ Ɠɣus Ɱɣ Ɲɑɱɛ Is 🍒💙•••✦𝘽𝙤𝙩✦•••💞🌿
+🕊️🌸...Ɦɛɭɭ❍ Ɠɣus Ɱɣ Ɲɑɱɛ Is 🍒💙•••✦𝗦ⲏ𝐚𝗴นη🦋✦•••💞🌿
 
 
 
@@ -49,14 +49,14 @@ ${global.config.PREFIX}Sɧɑɣɽɪ..💜(Ƭɛxʈ)\n${global.config.PREFIX} (Ƥɧ
 🦋🌸Ƭɣƥɛ${global.config.PREFIX}Ɦɛɭƥ2 (Ɑɭɭ Ƈøɱɱɑɳɗʂ)...☃️💌
 
 ${global.config.PREFIX} ɪɳfø (ɑɗɱɪɳ Iɳføɽɱɑʈɪøɳ)👀✍️
-...🍫🥀Ɱɣ ❍wɳɛɽ ɪs Ɱɽ ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙...🕊️☃️
+...🍫🥀Ɱɣ ❍wɳɛɽ ɪs Ɱɽ 𝙑𝙄𝙆𝘼𝙎 𝙍𝘼𝙅𝙋𝙐𝙏...🕊️☃️
 
 ${global.config.PREFIX}🌺🍃Ƈɑɭɭɑɗ føɽ Ɑɳɣ ɪʂʂuɛ 
 <<<<<------------------------------>>>>>
 A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B̸O̸T̸ D̸E̸V̸A̸L̸O̸P̸A̸R̸....💙🍫
 
-💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝕻𝖗𝖎𝖞𝖆𝖓𝖘𝖍 𝕽𝖆𝖏𝖕𝖚𝖙☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/priyanshu.rajput.official\n
-👋For Any Kind Of Help Contact On Telegram  Username 👉 @Priyanshrajput😇 
+🤍𝐎𝐖𝐍𝐄𝐑:- ▶𝙍𝙐𝘿𝙍𝘼 𝙍𝘼𝙅𝙋𝙐𝙏◀ 🤍\n🖤 𝑌𝑜𝑢 𝑐𝑎𝑛 𝑐𝑎𝑙𝑙 ℎ𝑖𝑚➦𝙑𝙄𝙆𝙆𝙐🖤\n🤍 𝓒𝓻𝓮𝓭𝓲𝓽𝓼 ➺➤ 𝙑𝓲𝓴𝓪𝑠 𝓡𝓪𝓳𝒑𝒖𝑡 🖤\n
+𝑓𝑜𝑟 𝑎𝑛𝑦 𝑘𝑖𝑛𝑑 𝑜𝑓 ℎ𝑒𝑙𝑝 𝑐𝑜𝑛𝑡𝑒𝑐𝑡 𝑜𝑤𝑛𝑒𝑟 𝙑𝙄𝙆𝘼𝙎➤𝙍𝙐𝘿𝙍𝘼 𝙍𝘼𝙅𝙋𝙐𝙏 
 
 
 ✮☸✮
@@ -71,7 +71,7 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
 ✮☸✮
 ✮┼❄️┼✮
 
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
+┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒𝙑𝙄𝙆𝘼𝙎🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 `, attachment: fs.createReadStream(__dirname + "/cache/botjoin.mp4")} ,threadID));
     }
     else {
@@ -93,7 +93,7 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
             }
             memLength.sort((a, b) => a - b);
             
-            (typeof threadData.customJoin == "undefined") ? msg = "Hello Mr/Miss {name},\n─────────────────\n You're The {soThanhVien}Member ─────────────────\nOf {threadName} Group\n─────────────────\nPlease Enjoy Your Stay\n─────────────────\nAnd Make Lots Of Friends =)\n──────-°°__𝗧𝗿𝘂𝘀𝘁 𝗺e 🔐 °__!!>☁️✨❤️ My Owner  ✦͙͙͙͙❥⃝∗⁎.ʚ Priyansh Rajput ɞ.⁎∗❥⃝**͙✦͙͙͙ ❤️ Love you 😘 ummmma ❤️😍" : msg = threadData.customJoin;
+            (typeof threadData.customJoin == "undefined") ? msg = "𝑯𝒆𝒍𝒍𝒐 𝒎𝒓/𝒎𝒊𝒔𝒔 {name},\n─────────────────\n 𝒚𝒐𝒖 𝒂𝒓𝒆 𝒕𝒉𝒆 {soThanhVien}𝒎𝒆𝒎𝒃𝒆𝒓 ─────────────────\n𝒐𝒇 {threadName} 𝑮𝒓𝒐𝒖𝒑\n─────────────────\n𝒑𝒍𝒆𝒂𝒔𝒆 𝒆𝒏𝒋𝒐𝒚 𝒂𝒏𝒅 𝒔𝒕𝒂𝒚\n─────────────────\n𝒎𝒂𝒌𝒆 𝒍𝒐𝒕𝒔 𝒐𝒇 𝒇𝒓𝒊𝒆𝒏𝒅𝒔 =)\n──────-°°__𝗧𝗿𝘂𝘀𝘁 𝗺e 🔐 °__!!>☁️✨❤️ My Owner  ✦͙͙͙͙❥⃝∗⁎.ʚ 𝙑𝙄𝙆𝘼𝙎➤𝙍𝙐𝘿𝙍𝘼 𝙍𝘼𝙅𝙋𝙐𝙏 ɞ.⁎∗❥⃝**͙✦͙͙͙ 🤍" : msg = threadData.customJoin;
             msg = msg
             .replace(/\{name}/g, nameArray.join(', '))
             .replace(/\{type}/g, (memLength.length > 1) ?  'Friends' : 'Friend')
