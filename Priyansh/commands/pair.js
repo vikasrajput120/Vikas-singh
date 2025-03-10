@@ -2,7 +2,7 @@ module.exports.config = {
   name: "pair",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "𝙑𝙞𝙠𝙖𝙨 𝙍𝙖𝙟𝙥𝙪𝙩",
   description: "It's a compound :>",
   commandCategory: "Giải trí",
   usages: "",
@@ -100,7 +100,15 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   fs.writeFileSync(pathImg, imageBuffer);
   fs.removeSync(pathAvt1);
   fs.removeSync(pathAvt2);
-  return api.sendMessage({ body: `Congratulations ${name1} successfully paired with ${name2}\nThe odds are ${tile}%`,
+  return api.sendMessage({ body: `‎‎🤍 ◁𝗖𝗢𝗡𝗚𝗥𝗔𝗧𝗨𝗟𝗔𝗧𝗜𝗢𝗡▷ 🤍 
+  
+  𝑇ℎ𝑖𝑠 𝑙𝑖𝑛𝑒 𝑓𝑜𝑟 𝑦𝑜𝑢 ➤➤➤➤➤
+
+💞 »»
+『
+   🥲┼┼──🦋 𝐊ɪɴ 𝐋ᴀғᴢᴏɴ 𝐌ᴇ 𝐁ʏᴀɴ 𝐊ᴀʀᴜ      🥲┼┼──🍁                         𝐀ʜᴇᴍɪʏᴀᴛ 𝐓ᴇʀɪ  🥲┼┼──🦋°          𝐊ɪ 𝐁ɪɴ 𝐓ᴇʀᴇ 𝐍ᴀᴍᴜᴍᴋɪɴ 𝐒ɪ 𝐋ᴀɢᴛɪ 𝐇ᴀ𝐢•||•●┼ᚐ🩵 ꯭←̟̽ __  ꯭←̟̽🩷💋┼──                                🥲┼┼──°   𝐙ɪɴᴅᴀɢɪ 𝐌ᴇʀɪ  』  ${name1} 
+   😽𝑆𝑢𝑐𝑐𝑒𝑠𝑓𝑢𝑙𝑙𝑦 𝑤𝑖𝑡ℎ😽 ${name2}\n 𝓐𝒑𝒑 𝓓𝒐𝒏𝒐 𝓚𝒆 𝙂𝒖𝒏 💌 ${tile}%
+     𝓒𝓻𝓮𝓭𝓲𝓽𝓼 ➺➤ 𝙑𝓲𝓴𝓪𝑠 𝓡𝓪𝓳𝒑𝒖𝑡`,
             mentions: [{
           tag: `${name2}`,
           id: id2
