@@ -24,37 +24,28 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imghippo.com/files/lJ8376Tkc.jpg"];
-var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
-(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
+["https://i.imgur.com/2n53Q8K.jpeg","https://i.imgur.com/AEBVH5D.jpeg"];
+var callback = () => api.sendMessage({body:`🤍 𝘼𝘿𝙈𝙄𝙉 𝘼𝙉𝘿 𝘽❍𝙏 𝙄𝙉𝙁❍ 🤍
+𝙅𝘼𝙔 𝙎𝙃𝙍𝙀𝙀 𝙍𝘼𝙈➤𝙅𝘼𝙔 𝙈𝘼𝙃𝘼𝙆𝘼𝙇
 
-☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
-
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙💔🥀
-
-🙈bot andmin owner facebook id link🙈➪ www.facebook.com/priyanshu.rajput.official 💞🕊️
-
-👋For Any Kind Of Help Contact On Telegram  Username 👉 @Priyanshrajput😇
-
+☄️𝘽𝙊𝙏 𝙉𝘼𝙈𝙀☄️ ➤  ${global.config.BOTNAME}
 ✧══════•❁❀❁•══════✧
 
-🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
+Bᴏᴛ Pʀᴇғɪx➤ ${global.config.PREFIX}
 
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭
+❍ᴡɴᴇʀ➤𝙑𝙄𝙆𝘼𝙎▶𝙍𝙐𝘿𝙍𝘼 𝙍𝘼𝙅𝙋𝙐𝙏
 
-🥳UPTIME🥳
+Uᴘᴛɪᴍᴇ 🤍
 
-🌪️Today is🌪️ ☞︎︎︎☜︎︎︎✰ ${juswa} 
+Tᴏᴅᴀʏ ɪs ➤ ${juswa} 
 
-⚡Bot is running⚡ ${hours}:${minutes}:${seconds}.
+⚡Bᴏᴛ ɪs ʀᴜɴɴɪɴɢ⚡ ${hours}:${minutes}:${seconds}.
 
-✅Thanks for using ${global.config.BOTNAME} Bot🖤
+Tʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mʏ ${global.config.BOTNAME} Bᴏᴛ🖤
 
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🌿✰✧✧✧✧✦🌸
-┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
+   ▶𝙑𝙄𝙆𝘼𝙎➤𝙍𝙐𝘿𝙍𝘼 𝙍𝘼𝙅𝙋𝙐𝙏◀
 
 
 `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
